@@ -12,21 +12,27 @@
 <header><a href="index.html"><img src="ikon.png" alt="Zikir Defteri"></a><div><div class="marka">Zikir Defteri</div><div class="alt">Gizlilik politikası</div></div></header>
 <!-- Kaynak: GIZLILIK.md — Tools/gizlilik-sayfa-uret.py ile üretilir, elle düzenlenmez. -->
 <h1>Gizlilik Politikası</h1>
-<p class="tarih"><strong>Son güncelleme:</strong> 14 Eylül 2026</p>
+<p class="tarih"><strong>Son güncelleme:</strong> 9 Kasım 2026</p>
 <h2>Özet</h2>
 <p>Zikir Defteri senden hiçbir veri toplamaz. Sunucumuz yok, hesap sistemi yok, analiz aracı yok, reklam ağı yok. Uygulamanın ürettiği her şey telefonunda kalır.</p>
 <p>Bu bir pazarlama cümlesi değil, uygulamanın teknik gerçeği: Zikir Defteri'nin kodunda internete çıkan <strong>tek bir çağrı bile yok</strong>.</p>
 <h2>Toplanan veriler</h2>
-<p><strong>Hiçbiri.</strong> Ne kimlik, ne e-posta, ne telefon numarası, ne cihaz kimliği, ne konum, ne kullanım istatistiği, ne çökme raporu.</p>
+<p><strong>Hiçbiri.</strong> Ne kimlik, ne e-posta, ne telefon numarası, ne cihaz kimliği, ne kullanım istatistiği, ne çökme raporu.</p>
+<p>Konumunu kıble ve namaz vakitleri için <strong>cihazında</strong> kullanırız; konumunu saklamayız, hiçbir yere göndermeyiz. Ayrıntısı aşağıda, "Konum" bölümünde.</p>
 <p>Uygulamayı kullanmak için kayıt olmana gerek yok, çünkü kayıt diye bir şey yok.</p>
 <h2>Telefonunda tutulan bilgiler</h2>
 <p>Şunlar <strong>yalnızca senin cihazında</strong>, uygulamanın kendi alanında saklanır ve hiçbir yere gönderilmez:</p>
-<ul><li>Zikir sayaçların ve günlük geçmişin</li><li>Vird programların</li><li>Seçtiğin şehir</li><li>Kişiselleştirme cevapların: sana nasıl hitap edeceğimiz (isteğe bağlı adın), kendi yazdığın hatırlatma cümlen, ilgilendiğin konular ve günlük hedefin</li><li>Bildirim tercihlerin</li><li>Tema seçimin</li><li>Favori hadislerin</li><li>Yedekten geri yükleme yaptıysan, geri alabilmen için yüklemeden önceki hâlin</li></ul>
+<ul><li>Zikir sayaçların ve günlük geçmişin</li><li>Vird programların</li><li>Kaza namazı borcun (vakit vakit) ve takvimde "kazaya kaldı" diye işaretlediğin gün ve vakitler</li><li>Seçtiğin şehir; vakitler konumuna göreyse, konumuna en yakın ilçe (ilçenin merkezi, senin konumun değil)</li><li>Kıble için seçtiğin il ve ilçe (konum izni vermediysen)</li><li>Kişiselleştirme cevapların: sana nasıl hitap edeceğimiz (isteğe bağlı adın), kendi yazdığın hatırlatma cümlen, ilgilendiğin konular ve günlük hedefin</li><li>Bildirim tercihlerin</li><li>Tema seçimin</li><li>Favori hadislerin</li><li>Yedekten geri yükleme yaptıysan, geri alabilmen için yüklemeden önceki hâlin</li></ul>
 <p>Bu bilgilere biz erişemeyiz. Sunucumuz olmadığı için teknik olarak erişebileceğimiz bir yer de yok.</p>
-<h2>Konum ve pusula</h2>
-<p><strong>Zikir Defteri konum izni istemez.</strong> iOS'un konum izni penceresini hiç görmezsin.</p>
-<p>Kıble pusulası telefonun <strong>manyetometresini</strong> (pusula donanımı) okur. iOS'ta bu okuma konum izni gerektirmez; cihazın hangi yöne baktığını söyler, nerede olduğunu söylemez. Okuma anlık kullanılır, saklanmaz ve hiçbir yere gönderilmez.</p>
-<p>Kıble açısı, senin listeden <strong>elle seçtiğin şehrin</strong> koordinatlarından hesaplanır. Şehir listesi uygulamanın içinde gömülüdür.</p>
+<h2>Konum</h2>
+<p>Zikir Defteri konum iznini iki iş için ister: <strong>kıble</strong> ve <strong>namaz vakitleri</strong>. İzin, Kıble sekmesini ilk açtığında ya da şehir seçerken "Konumumu kullan"a dokunduğunda istenir. İzin "uygulamayı kullanırken" türündendir: konum, Kıble sekmesini her açtığında ve vakitler konumuna göreyse uygulamayı her açtığında <strong>bir kez</strong> okunur. Arka planda ya da uygulama kapalıyken hiç okunmaz. "Her zaman" izni istenmez.</p>
+<p>Konumun <strong>cihazında</strong> kullanılır, hiçbir yere gönderilmez ve diske kaydedilmez; uygulama kapanınca bellekten de silinir.</p>
+<ul><li><strong>Kıble:</strong> Açı konumundan hesaplanır.</li><li><strong>Namaz vakitleri:</strong> Konumuna en yakın <strong>ilçe</strong> bulunur ve vakitler o ilçenin merkezine göre hesaplanır, Diyanet'in ilçe ilçe yayımladığı gibi. Kaydedilen yalnız o ilçedir: adı ve merkezinin koordinatı, yani o ilçedeki herkes için aynı nokta. Yurt dışındaysan ve listedeki bir şehre 30 km'den yakınsan o şehir seçilir. Uygulamayı açmadan başka şehre gidersen bildirimler, uygulamayı açana kadar önceki ilçeye göre gelir.</li></ul>
+<p>Bu yüzden konumun toplanan veriler arasında yer almaz.</p>
+<p>İzin vermek zorunda değilsin. Vermezsen kıble için <strong>il ve ilçeni</strong>, vakitler için <strong>şehrini</strong> listeden seçersin. 973 ilçenin koordinatı uygulamanın içinde gömülüdür; ne ilçe bulunurken ne seçim sırasında internete çıkılır. Listeden şehir seçersen vakitler artık konumuna göre değişmez. İzni istediğin an iPhone Ayarları'ndaki Zikir Defteri sayfasından kapatabilir ya da açabilirsin.</p>
+<p>Konumu iOS'un kendisi bulur (GPS, Wi-Fi, baz istasyonu). Bu işin nasıl yapıldığı Apple'ın Konum Servisleri ayarlarına ve gizlilik politikasına bağlıdır.</p>
+<h2>Pusula</h2>
+<p>Kıble pusulası telefonun <strong>manyetometresini</strong> (pusula donanımı) okur. Bu okuma cihazın hangi yöne baktığını söyler, nerede olduğunu söylemez. İzin gerektirmez; anlık kullanılır, saklanmaz ve hiçbir yere gönderilmez.</p>
 <h2>Namaz vakitleri</h2>
 <p>Vakitler cihazında hesaplanır (açık kaynaklı <code>adhan-swift</code> kütüphanesiyle). İnternet bağlantısı kullanılmaz, hiçbir vakit servisine başvurulmaz.</p>
 <p class="not">Not: Bu hesap Diyanet'in resmî takvimi değildir; birkaç dakika sapabilir. Resmî vakit için takvimine bakmalısın. Bu bir gizlilik meselesi değil ama dürüstlük gereği burada da yazıyoruz.</p>
@@ -37,6 +43,7 @@
 <h2>Üçüncü taraflar</h2>
 <p>Reklam ağı, analiz aracı, çökme raporlama servisi, sosyal medya SDK'sı kullanılmıyor.</p>
 <p>Kullanılan tek dış bileşen <strong>adhan-swift</strong>: namaz vakti hesabı yapan açık kaynaklı bir kütüphane. Tamamen cihazda çalışır, ağ bağlantısı kurmaz, veri toplamaz.</p>
+<p>İlçe koordinatları Wikidata'dan (kamu malı) alınıp uygulamanın içine gömüldü; uygulama Wikidata'ya bağlanmaz.</p>
 <h2>Yedek</h2>
 <p>Verin senin: Ayarlar › Yedek'ten istediğin an tek dosya (JSON) olarak alabilir, yeni telefonuna taşıyabilirsin. Dosya cihazında üretilir ve iOS'un paylaşım sayfasıyla <strong>senin seçtiğin yere</strong> gider; biz hiçbir yere göndermeyiz.</p>
 <h2>Verilerin silinmesi</h2>
